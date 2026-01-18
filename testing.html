@@ -73,6 +73,242 @@
 
     
 </form>
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+</form>
+<input type="text" name="username"><br>
+<input type="password" name="password"><br>
+<input type="email" name="email"><br>
+<input type="number" name="age"><br>
+<input type="radio" name="gender" value="male"> Male
+<input type="radio" name="gender" value="female"> Female
+<input type="checkbox" name="hobby" value="reading"> Reading
+<input type="file" name="photo"><br>
+<input type="submit" value="submit"><br>
+<input type="reset" value="reset"><br>
+
+<label for="email">email</label>
+<input type="email" id="email"><br>
+<label for="password" > password</label>
+<input type="password" id="password"><br>
+
+<form action="submit.php" method="post">
+  <label>Name:</label>
+  <input type="text" name="name" required>
+
+  <label>Email:</label>
+  <input type="email" name="email">
+
+  <label>Gender:</label>
+  <input type="radio" name="gender"> Male
+  <input type="radio" name="gender"> Female
+
+  <button type="submit">Submit</button>
+</form>
+
+<!DOCTYPE html>
+<html>
+ <head>
+      <title>Radio Box Control</title>
+   </head>
+   <body>
+      <form>
+         <input type = "radio" name = "subject" value = "frontend"> Frontend
+         <input type = "radio" name = "subject" value = "backend"> Backend
+      </form>
+   
+<input type="radio" name="gender" value="male"> Male
+<input type="radio" name="gender" value="female"> Female
+<input type="submit" value="submit">
+
+<form>
+  <label for="fname">FirstName</label>
+  <input type="text" id="fname" name="firstname" value="">
+  <label for="middle name">middle Name</label>
+  <input type="text" id="middle Name" name="middlename" value="">
+  <label for="lname">LastName</label>
+  <input type="text" id="lname" name="lastname" value="">
+ </form> 
+
+ <form action="/action_page.php">
+  <fieldset>
+    <legend>Employee Details</legend>
+    <label for="Ename">Employee name:</label><br>
+    <input type="text" id="Ename" name="Ename" value=""><br>
+    <label for="Dname">Designation:</label><br>
+    <input type="text" id="Dname" name="Dname" value=""><br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>
+
+<form action="/action_page.php">
+    <fieldset>
+        <legend>user details</legend>
+        <label for="username">Username</label><br>
+        <input type="text" id="username" name="username" value=""><br>
+        <label for="password">password</label><br>
+        <input type="password" id="password" name="password" value=""><br><br>
+        <input type="submit" value="Submit">
+
+
+    </fieldset>
+</form>
+<form action="/action_page.php">
+  <label for="fruits">Choose a fruit:</label>
+  <select id="fruits" name="fruits">
+    <option value="apple">Apple</option>
+    <option value="pineapple">Pineapple</option>
+    <option value="grapes">Grapes</option>
+    <option value="orange">Orange</option>
+  </select>
+</form>
+<form action="/action_page.php">
+    <label for="gender"> choose gender</label>
+    <select name="gender" id="gender">
+        <option value="male">male</option>
+        <option value="female">female</option>
+        <option value="other">other</option>
+</form>
+
+<button type="button" onclick="alert('Hello World!')">Click Here</button><br>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+<form action="/action_page.php">
+  <label for="phone">Name:</label>
+  <input type="text" id="name" name="name" placeholder="please enter your name"><br><br>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
+
+
+<form action="/action_page.php">
+<input type="text" id="name" name="name" placeholder=" pleased Enter your name">
+<input type="submit" value="Submit">
+</form>
+
+
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="Jay"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Krishna"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+
+
+<form action="/action_page.php">
+    <label for="Country"> country name</label><br>
+    <input type="text" id="Country" name="Country" value="India"><br><br>
+    <input type="submit" value="Submit">
+
+</form>
+
+<form action="/action_page.php">
+  <label for="points">Points:</label>
+  <input type="number" id="points" name="points" step="3">
+  <input type="submit" value="Submit">
+</form>
+
+<form>
+    <fieldset>
+        <legend>Personal Information</legend>
+
+        <label>
+            Name:
+            <input type="text">
+        </label><br><br>
+
+        <label>
+            Email:
+            <input type="email">
+        </label>
+    </fieldset>
+</form>
+
+  <label>Enter your demo website URL: </label>  
+    <input type="url" name="website"  placeholder="https://www.example.com"><br><br>
+
+
+    <input type="color" name="upclick" value=""><br><br>
+
+<form>
+    <label>
+        Choose your favorite color:
+        <input type="color" name="upclick" value="#ff0000">
+    </label>
+</form>
+
+
+Date  of Birth:
+    <input type="date" name="Startdate"><br>
+
+    <label>date of birth:</label>
+    <input type="date" name="Startdate"><br>
+<label> Upload resume Here
+    <input type="file" name="resume">
+</label><br>
+<label> enter passount minth and year
+    <input type="month" name="monthyear">
+</label><br>
+
+<label> Quantity between 1 and 10
+    <input type="number" name="quantity" min="1" max="10">
+
+</label><br>
+
+<label>Select your prefered week and time for exam
+    <input type="week" name="weektime">
+    <input type="time" name="examtime">
+</label><br>
+
+
+<form action="/action_page.php">
+    <label >search mail id here</label>
+    <input type="search" name="searchmail" ><br>
+    <input type="submit" value="Submit"><br>
+
+</form>
+
+
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="Jay"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Krishna" autofocus><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+
+<form action="/action_page.php">
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" required>
+  <input type="submit" value="Submit">
+</form>
+
+
+<form>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" required>
+
+  <button type="submit">Submit</button>
+</form>
+
+
+
+
 
 </body>
 </html>

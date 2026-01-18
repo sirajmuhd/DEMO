@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Newsletter Signup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .newsletter {
+            max-width: 400px;
+            margin: 40px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        .newsletter h2 {
+            margin-bottom: 15px;
+        }
+
+        .newsletter label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        .newsletter input[type="text"],
+        .newsletter input[type="email"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+
+        .newsletter button {
+            margin-top: 15px;
+            padding: 10px;
+            width: 100%;
+            cursor: pointer;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<div class="newsletter">
+    <h2>Newsletter Signup</h2>
+
+    <form>
+        <label>
+            Full Name:
+            <input type="text" name="fullname" required>
+        </label>
+
+        <label>
+            Email Address:
+            <input type="email" name="email" required>
+        </label>
+
+        <label style="margin-top: 10px;">
+            <input type="checkbox" required>
+            I agree to the terms and conditions
+        </label>
+
+        <button type="submit">Subscribe</button>
+    </form>
+
+    <div class="footer">
+        &copy; <span id="year"></span> Your Company Name
+    </div>
+</div>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
+    
+</body>
+</html>
